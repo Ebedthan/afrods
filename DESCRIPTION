@@ -3,7 +3,7 @@ Type: Package
 Title: African Data from Gapminder
 Version: 0.1.0
 Authors@R: person("Anicet", "Ebou", email = "anicet.ebou@gmail.com", role = c("aut", "cre"))
-Maintainer: The package maintainer <yourself@somewhere.net>
+Maintainer: Anicet Ebou <anicet@gmail.com>
 Description: An ready to use dataset on African countries from data available
     at Gapminder.org. The package contain many datasets grouped by fields.
 Depends:
