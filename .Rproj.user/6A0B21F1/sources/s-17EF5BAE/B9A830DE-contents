@@ -1,0 +1,18 @@
+Package: afrods
+Type: Package
+Title: African Data from Gapminder
+Version: 0.1.0
+Authors@R: person("Anicet", "Ebou", email = "anicet.ebou@gmail.com", role = c("aut", "cre"))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: An ready to use dataset on African countries from data available
+    at Gapminder.org. The package contain many datasets grouped by fields.
+Depends:
+    R (>= 3.1.0)
+License: CC0
+LazyData: true
+URL: https://github.com/Ebedthan/afrods,
+    http://www.gapminder.org/data/
+BugReports: https://github.com/Ebedthan/afrods/issues
+Suggests:
+    tidyverse,
+    testthat
