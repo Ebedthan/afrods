@@ -11,7 +11,7 @@ library(dslabs)
 # setting working directory to avoid inexistent path error in read_excel function
 
 # update the path for new folder
-setwd("~/Downloads/data.pkg/Technology/")
+setwd("~/Downloads/data.pkg/Energy/")
 file_list <- list.files(pattern='*.xlsx')
 work_df_list <- lapply(file_list, read_excel)
 setwd("~/Projects/afrods/")
@@ -75,18 +75,18 @@ dataframe = Reduce(function(...) merge(..., all=T), wdf_list)
 dataframe = merge(dataframe, african_countries[, c("country", "region")], by="country")
 
 # !!! here at each iteration i need to change names from work to the one available now
-technology <- dataframe %>%
+energy <- dataframe %>%
   select(country, region, year, everything())
 
 # save for now
-write_csv(technology, "data-raw/technology.csv")
+write_csv(energy, "data-raw/energy.csv")
 
 # save the rda file
-devtools::use_data(technology, overwrite = TRUE)
+devtools::use_data(energy, overwrite = TRUE)
 
 # determine the best compression format
-compress <- tools::checkRdaFiles("data/technology.rda")$compress
+compress <- tools::checkRdaFiles("data/energy.rda")$compress
 
 # Re save using this format
-devtools::use_data(technology, overwrite = TRUE, compress = compress)
+devtools::use_data(energy, overwrite = TRUE, compress = compress)
 
