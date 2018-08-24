@@ -1,8 +1,0 @@
-#' Population data
-#'
-#'
-#'
-#'
-#'
-#'
-"population"
