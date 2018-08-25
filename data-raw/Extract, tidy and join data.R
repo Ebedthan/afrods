@@ -11,7 +11,7 @@ library(dslabs)
 # setting working directory to avoid inexistent path error in read_excel function
 
 # update the path for new folder
-setwd("~/Downloads/data.pkg/Energy/")
+setwd("~/Downloads/data.pkg/Work/")
 file_list <- list.files(pattern='*.xlsx')
 work_df_list <- lapply(file_list, read_excel)
 setwd("~/Projects/afrods/")
@@ -49,7 +49,8 @@ counter <- 0
 wdf_list <- lapply(wdf_list, function(df) {
   counter <<- counter + 1
   names(df)[3] <- desc_vec[counter]
-  df$year <- as.integer(df$year)
+  df$country <- as.factor(df$country)
+  df$year <- as.numeric(df$year)
   df
 })
 
@@ -69,24 +70,27 @@ wdf_list <- lapply(wdf_list, function(df) {
 
 # Merging all data frames in list to obtain only one df
 dataframe = Reduce(function(...) merge(..., all=T), wdf_list)
-# head(population)
 
 # add region column
 dataframe = merge(dataframe, african_countries[, c("country", "region")], by="country")
 
 # !!! here at each iteration i need to change names from work to the one available now
-energy <- dataframe %>%
+work <- dataframe %>%
   select(country, region, year, everything())
 
+# changing class of columns
+id <- c(4:ncol(work))
+work[,id] <- apply(work[,id], 2, function(x) as.numeric(x))
+
 # save for now
-write_csv(energy, "data-raw/energy.csv")
+write_csv(work, "data-raw/work.csv")
 
 # save the rda file
-devtools::use_data(energy, overwrite = TRUE)
+devtools::use_data(work, overwrite = TRUE)
 
 # determine the best compression format
-compress <- tools::checkRdaFiles("data/energy.rda")$compress
+compress <- tools::checkRdaFiles("data/work.rda")$compress
 
 # Re save using this format
-devtools::use_data(energy, overwrite = TRUE, compress = compress)
+devtools::use_data(work, overwrite = TRUE, compress = compress)
 
