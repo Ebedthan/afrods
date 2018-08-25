@@ -83,7 +83,7 @@ id <- c(4:ncol(work))
 work[,id] <- apply(work[,id], 2, function(x) as.numeric(x))
 
 # save for now
-write_csv(work, "data-raw/work.csv")
+write_csv(work, "inst/extdata/work.csv")
 
 # save the rda file
 devtools::use_data(work, overwrite = TRUE)
