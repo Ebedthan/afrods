@@ -4,12 +4,18 @@
 \name{agriculture_environment}
 \alias{agriculture_environment}
 \title{Agriculture and environment}
-\format{A data frame with 27 variables: \code{country}, \code{region},
-  \code{year}, \code{}}
+\format{An object of class \code{data.frame} with 7601 rows and 26 columns.}
+\source{
+https://gapminder.org/data
+}
 \usage{
 agriculture_environment
 }
 \description{
 Agriculture and environment data from gapminder.
+}
+\examples{
+ agriculture_environment
+
 }
 \keyword{datasets}

@@ -5,10 +5,17 @@
 \alias{economy}
 \title{Economy}
 \format{An object of class \code{data.frame} with 12766 rows and 55 columns.}
+\source{
+https://gapminder.org/data
+}
 \usage{
 economy
 }
 \description{
 Economics data of African countries from Gapminder.
+}
+\examples{
+  economy
+
 }
 \keyword{datasets}
