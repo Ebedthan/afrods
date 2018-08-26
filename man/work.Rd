@@ -6,41 +6,41 @@
 \title{Work}
 \format{Data frame with columns
 \describe{
-\item{Female 15-24 employment to population} {percentage}
-\item{Female 15-64 labour to population} {percentage}
-\item{Female 25-54 labour to population} {percentage}
-\item{Female 65+ labour to population} {percentage}
-\item{Female agriculture workers} {percentage}
-\item{Female contributing family workers} {percentage}
-\item{Female industry workers} {percentage}
-\item{Female salaried employees} {percentage}
-\item{Female self-employed} {percentage}
-\item{Female service workers} {percentage}
-\item{Male 15-24 employment to population} {percentage}
-\item{Male 15-64 labour to population} {percentage}
-\item{Male 25-54 labour to population} {percentage}
-\item{Male above 15 employment to population} {percentage}
-\item{Male 15+ labour to population} {percentage}
-\item{Male 65+ labour to population} {percentage}
-\item{Male agriculture workers} {percentage}
-\item{Male contributing family workers} {percentage}
-\item{Male industry workers} {percentage}
-\item{Male salaried employees} {percentage}
-\item{Male self-employed} {percentage}
-\item{Male service workers} {percentage}
-\item{Total 15-24 employment to population} {percentage}
-\item{Total 15-64 labour to population} {percentage}
-\item{Total 25-54 labour to population} {percentage}
-\item{Total above 15 employment to population} {percentage}
-\item{Total 15+ labour to population} {percentage}
-\item{Total 65+ labour to population} {percentage}
-\item{Total agriculture workers} {percentage}
-\item{Total contributing family workers} {percentage}
-\item{Total industry workers} {percentage}
-\item{Total long-term unemployment} {percentage}
-\item{Total salaried employees} {percentage}
-\item{Total self-employed} {percentage}
-\item{Total service workers} {percentage}
+\item{Female 15-24 employment to population}{percentage}
+\item{Female 15-64 labour to population}{percentage}
+\item{Female 25-54 labour to population}{percentage}
+\item{Female 65+ labour to population}{percentage}
+\item{Female agriculture workers}{percentage}
+\item{Female contributing family workers}{percentage}
+\item{Female industry workers}{percentage}
+\item{Female salaried employees}{percentage}
+\item{Female self-employed}{percentage}
+\item{Female service workers}{percentage}
+\item{Male 15-24 employment to population}{percentage}
+\item{Male 15-64 labour to population}{percentage}
+\item{Male 25-54 labour to population}{percentage}
+\item{Male above 15 employment to population}{percentage}
+\item{Male 15+ labour to population}{percentage}
+\item{Male 65+ labour to population}{percentage}
+\item{Male agriculture workers}{percentage}
+\item{Male contributing family workers}{percentage}
+\item{Male industry workers}{percentage}
+\item{Male salaried employees}{percentage}
+\item{Male self-employed}{percentage}
+\item{Male service workers}{percentage}
+\item{Total 15-24 employment to population}{percentage}
+\item{Total 15-64 labour to population}{percentage}
+\item{Total 25-54 labour to population}{percentage}
+\item{Total above 15 employment to population}{percentage}
+\item{Total 15+ labour to population}{percentage}
+\item{Total 65+ labour to population}{percentage}
+\item{Total agriculture workers}{percentage}
+\item{Total contributing family workers}{percentage}
+\item{Total industry workers}{percentage}
+\item{Total long-term unemployment}{percentage}
+\item{Total salaried employees}{percentage}
+\item{Total self-employed}{percentage}
+\item{Total service workers}{percentage}
 }}
 \source{
 https://gapminder.org/data
@@ -52,7 +52,7 @@ work
 Work data of African countries from Gapminder.
 }
 \examples{
-   works
+   work
 
 
 }

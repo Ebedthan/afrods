@@ -248,34 +248,34 @@ NULL
 #' \item{Flood killed}{}
 #' \item{Child deaths}{}
 #' \item{HIV Incidence % (Ages 15-49)}{}
-#' \item{People living with HIV} {}
-#' \item{Male 0-4 years} {%}
-#' \item{Male 10-14 years} {%}
-#' \item{Male 15-19 years} {%}
-#' \item{Male 20-39 years} {%}
-#' \item{Male 40-59 years} {%}
-#' \item{Male 5-9 years} {%}
-#' \item{Male above 60} {%}
-#' \item{Median age} {}
-#' \item{Neonates protected at birth against neonatal tetanus (PAB)} {%}
-#' \item{Whole country new smear-positive case detection rate} {%}
-#' \item{DOTS new smear-positive case detection rate} {%}
-#' \item{Whole country all new case detection rate} {%}
-#' \item{DOTS all new case detection rate} {%}
-#' \item{One-year-olds immunized with three doses of diphtheria tetanus toxoid and pertussis (DTP3)} {%}
-#' \item{One-year-olds immunized with three doses of Hepatitis B (HepB3)} {%}
-#' \item{One-year-olds immunized with three doses of Hib (Hib3) vaccine} {%}
-#' \item{New and relapse cases of TB (per 100 000 population)} {}
-#' \item{New and relapse cases of TB} {}
-#' \item{New smear-positive TB cases (per 100 000 population)} {}
-#' \item{New smear-positive TB cases} {}
-#' \item{Systolic Blood Pressure female (mm Hg), age standardized mean} {}
-#' \item{Systolic Blood Pressure male (mm Hg), age standardized mean} {}
-#' \item{TB mortality, all forms in HIV+ (per 100 000 population per year)} {}
-#' \item{TB mortality, all forms in HIV+ (per year)} {}
-#' \item{Total cholesterol female (mmol/L), age standardized mean} {}
-#' \item{Total cholesterol male (mmol/L), age standardized mean} {}
-#' \item{Total fertility rate with projections} {}
+#' \item{People living with HIV}{}
+#' \item{Male 0-4 years}{percentage}
+#' \item{Male 10-14 years}{percentage}
+#' \item{Male 15-19 years}{percentage}
+#' \item{Male 20-39 years}{percentage}
+#' \item{Male 40-59 years}{percentage}
+#' \item{Male 5-9 years}{percentage}
+#' \item{Male above 60}{percentage}
+#' \item{Median age}{}
+#' \item{Neonates protected at birth against neonatal tetanus (PAB)}{percentage}
+#' \item{Whole country new smear-positive case detection rate}{percentage}
+#' \item{DOTS new smear-positive case detection rate}{percentage}
+#' \item{Whole country all new case detection rate}{percentage}
+#' \item{DOTS all new case detection rate}{percentage}
+#' \item{One-year-olds immunized with three doses of diphtheria tetanus toxoid and pertussis (DTP3)}{percentage}
+#' \item{One-year-olds immunized with three doses of Hepatitis B (HepB3)}{percentage}
+#' \item{One-year-olds immunized with three doses of Hib (Hib3) vaccine}{percentage}
+#' \item{New and relapse cases of TB (per 100 000 population)}{}
+#' \item{New and relapse cases of TB}{}
+#' \item{New smear-positive TB cases (per 100 000 population)}{}
+#' \item{New smear-positive TB cases}{}
+#' \item{Systolic Blood Pressure female (mm Hg), age standardized mean}{}
+#' \item{Systolic Blood Pressure male (mm Hg), age standardized mean}{}
+#' \item{TB mortality, all forms in HIV+ (per 100 000 population per year)}{}
+#' \item{TB mortality, all forms in HIV+ (per year)}{}
+#' \item{Total cholesterol female (mmol/L), age standardized mean}{}
+#' \item{Total cholesterol male (mmol/L), age standardized mean}{}
+#' \item{Total fertility rate with projections}{}
 #' }
 #'
 #' @examples
@@ -311,38 +311,38 @@ NULL
 #' @source https://gapminder.org/data
 #' @format Data frame with columns
 #' \describe{
-#' \item{Population in urban agglomerations of more than 1 million} {% of total population}
-#' \item{Total population} {}
-#' \item{Urban population growth} {annual %}
-#' \item{Urban population} {}
-#' \item{Children and elderly (per 100 adults)} {}
-#' \item{Urban population (% of total)} {}
-#' \item{Female 0-4 years} {%}
-#' \item{Female 10-14 years} {%}
-#' \item{Female 15-19 years} {%}
-#' \item{Female 20-39 years} {%}
-#' \item{Female 40-59 years} {%}
-#' \item{Female 5-9 years} {%}
-#' \item{Female above 60} {%}
-#' \item{Population density} {per square km}
-#' \item{Annual population growth rate} {%}
-#' \item{Population policies aid (% of total)} {}
-#' \item{0-4 years} {number}
-#' \item{Total 0-4 years} {%}
-#' \item{10-14 years} {number}
-#' \item{Total 10-14 years} {%}
-#' \item{15-19 years} {number}
-#' \item{Total 15-19 years} {%}
-#' \item{20-39 years} {number}
-#' \item{Total 20-39 years} {%}
-#' \item{40-59 years} {number}
-#' \item{Total 40-59 years} {%}
-#' \item{5-9 years} {number}
-#' \item{Total 5-9 years} {%}
-#' \item{Total above 60} {number}
-#' \item{Total above 60} {%}
-#' \item{Total population female} {}
-#' \item{Total population male} {}
+#' \item{Population in urban agglomerations of more than 1 million}{% of total population}
+#' \item{Total population}{}
+#' \item{Urban population growth}{annual percentage}
+#' \item{Urban population}{}
+#' \item{Children and elderly (per 100 adults)}{}
+#' \item{Urban population (% of total)}{}
+#' \item{Female 0-4 years}{percentage}
+#' \item{Female 10-14 years}{percentage}
+#' \item{Female 15-19 years}{percentage}
+#' \item{Female 20-39 years}{percentage}
+#' \item{Female 40-59 years}{percentage}
+#' \item{Female 5-9 years}{percentage}
+#' \item{Female above 60}{percentage}
+#' \item{Population density}{per square km}
+#' \item{Annual population growth rate}{percentage}
+#' \item{Population policies aid (% of total)}{}
+#' \item{0-4 years}{number}
+#' \item{Total 0-4 years}{percentage}
+#' \item{10-14 years}{number}
+#' \item{Total 10-14 years}{percentage}
+#' \item{15-19 years}{number}
+#' \item{Total 15-19 years}{percentage}
+#' \item{20-39 years}{number}
+#' \item{Total 20-39 years}{percentage}
+#' \item{40-59 years}{number}
+#' \item{Total 40-59 years}{percentage}
+#' \item{5-9 years}{number}
+#' \item{Total 5-9 years}{percentage}
+#' \item{Total above 60}{number}
+#' \item{Total above 60}{percentage}
+#' \item{Total population female}{}
+#' \item{Total population male}{}
 #' \item{Population growth (annual %)}
 #' }
 #'
@@ -358,49 +358,49 @@ NULL
 #' @source https://gapminder.org/data
 #' @format Data frame with columns
 #' \describe{
-#' \item{Arms exports (constant 1990 US$)} {}
-#' \item{Arms imports (constant 1990 US$)} {}
-#' \item{Car mortality per 100,000, age adjusted} {}
-#' \item{Homicide 0-14 all age adj} {}
-#' \item{Homicide 15-29 all} {}
-#' \item{Homicide 30-44 all age adj} {}
-#' \item{Homicide 45-59 all age adj} {}
-#' \item{Homicide 60+ all age adj} {}
-#' \item{Murder per 100,000, age adjusted} {}
-#' \item{Mean age at 1st marriage of women} {}
-#' \item{% of total labor force} {}
-#' \item{Armed forces personnel, total} {}
-#' \item{Food supply} {Kilocalories/person &day}
-#' \item{Motor vehicles (not 2-wheelers) per 1,000 population} {}
+#' \item{Arms exports (constant 1990 US$)}{}
+#' \item{Arms imports (constant 1990 US$)}{}
+#' \item{Car mortality per 100,000, age adjusted}{}
+#' \item{Homicide 0-14 all age adj}{}
+#' \item{Homicide 15-29 all}{}
+#' \item{Homicide 30-44 all age adj}{}
+#' \item{Homicide 45-59 all age adj}{}
+#' \item{Homicide 60+ all age adj}{}
+#' \item{Murder per 100,000, age adjusted}{}
+#' \item{Mean age at 1st marriage of women}{}
+#' \item{% of total labor force}{}
+#' \item{Armed forces personnel, total}{}
+#' \item{Food supply}{Kilocalories/person &day}
+#' \item{Motor vehicles (not 2-wheelers) per 1,000 population}{}
 #' \item{Patent application (total)}{}
-#' \item{Patents granted (total)} {}
-#' \item{Patents in force (total)} {}
-#' \item{Private expenditure on health as percentage of total expenditure on health} {}
-#' \item{Poverty headcount ratio at national poverty line} {% of population}
-#' \item{Medical doctor per 1000 people} {}
-#' \item{Air accidents affected} {number}
-#' \item{Air accidents killed} {number}
-#' \item{Average age of billionaires} {}
-#' \item{Cross sectors aid (% of total aid)} {}
-#' \item{Drought affected} {number}
-#' \item{Drought killed} {number}
-#' \item{Earthquake affected} {number}
-#' \item{Earthquake killed} {number}
-#' \item{Billionaires per million inhabitants} {number}
-#' \item{Total number of billionaires} {}
-#' \item{Out-of-pocket expenditure as percentage of total health expenditure} {}
-#' \item{Per capita government expenditure on health (PPP int. $)} {}
-#' \item{Per capita government expenditure on health at average exchange rate (US$)} {}
-#' \item{Per capita total expenditure on health (PPP int. $)} {}
-#' \item{Poverty headcount ratio at rural poverty line (% of rural population)} {%}
-#' \item{Poverty headcount ratio at urban poverty line (% of urban population)} {%}
-#' \item{Storm affected} {number}
-#' \item{Storm killed} {number}
-#' \item{Democracy score (based on PolityIV)} {}
-#' \item{Military expenditure (% of GDP)} {%}
-#' \item{Roads, paved (% of total roads)} {%}
-#' \item{Services, etc., value added (% of GDP)} {%}
-#' \item{War, age-adjusted mortality due to} {}
+#' \item{Patents granted (total)}{}
+#' \item{Patents in force (total)}{}
+#' \item{Private expenditure on health as percentage of total expenditure on health}{}
+#' \item{Poverty headcount ratio at national poverty line}{% of population}
+#' \item{Medical doctor per 1000 people}{}
+#' \item{Air accidents affected}{number}
+#' \item{Air accidents killed}{number}
+#' \item{Average age of billionaires}{}
+#' \item{Cross sectors aid (% of total aid)}{percentage}
+#' \item{Drought affected}{number}
+#' \item{Drought killed}{number}
+#' \item{Earthquake affected}{number}
+#' \item{Earthquake killed}{number}
+#' \item{Billionaires per million inhabitants}{number}
+#' \item{Total number of billionaires}{}
+#' \item{Out-of-pocket expenditure as percentage of total health expenditure}{}
+#' \item{Per capita government expenditure on health (PPP int. $)}{}
+#' \item{Per capita government expenditure on health at average exchange rate (US$)}{}
+#' \item{Per capita total expenditure on health (PPP int. $)}{}
+#' \item{Poverty headcount ratio at rural poverty line (% of rural population)}{percentage}
+#' \item{Poverty headcount ratio at urban poverty line (% of urban population)}{percentage}
+#' \item{Storm affected}{number}
+#' \item{Storm killed}{number}
+#' \item{Democracy score (based on PolityIV)}{}
+#' \item{Military expenditure (% of GDP)}{percentage}
+#' \item{Roads, paved (% of total roads)}{percentage}
+#' \item{Services, etc., value added (% of GDP)}{percentage}
+#' \item{War, age-adjusted mortality due to}{}
 #' }
 #'
 #' @examples
@@ -414,13 +414,13 @@ NULL
 #' @source https://gapminder.org/data
 #' @format Data frame with columns
 #' \decribe{
-#' \item{Mobile cellular subscriptions (per 100 people)} {}
-#' \item{Mobile cellular subscriptions, total number} {number}
-#' \item{High-technology exports (% of manufactured exports)} {%}
-#' \item{Personal computers} {number}
-#' \item{PC per 100} {number}
-#' \item{Internet users (per 100 people)} {}
-#' \item{Internet users, total number} {}
+#' \item{Mobile cellular subscriptions (per 100 people)}{}
+#' \item{Mobile cellular subscriptions, total number}{number}
+#' \item{High-technology exports (% of manufactured exports)}{percentage}
+#' \item{Personal computers}{number}
+#' \item{PC per 100}{number}
+#' \item{Internet users (per 100 people)}{}
+#' \item{Internet users, total number}{}
 #'}
 #'
 #' @examples
@@ -435,45 +435,45 @@ NULL
 #' @source https://gapminder.org/data
 #' @format Data frame with columns
 #' \describe{
-#' \item{Female 15-24 employment to population} {percentage}
-#' \item{Female 15-64 labour to population} {percentage}
-#' \item{Female 25-54 labour to population} {percentage}
-#' \item{Female 65+ labour to population} {percentage}
-#' \item{Female agriculture workers} {percentage}
-#' \item{Female contributing family workers} {percentage}
-#' \item{Female industry workers} {percentage}
-#' \item{Female salaried employees} {percentage}
-#' \item{Female self-employed} {percentage}
-#' \item{Female service workers} {percentage}
-#' \item{Male 15-24 employment to population} {percentage}
-#' \item{Male 15-64 labour to population} {percentage}
-#' \item{Male 25-54 labour to population} {percentage}
-#' \item{Male above 15 employment to population} {percentage}
-#' \item{Male 15+ labour to population} {percentage}
-#' \item{Male 65+ labour to population} {percentage}
-#' \item{Male agriculture workers} {percentage}
-#' \item{Male contributing family workers} {percentage}
-#' \item{Male industry workers} {percentage}
-#' \item{Male salaried employees} {percentage}
-#' \item{Male self-employed} {percentage}
-#' \item{Male service workers} {percentage}
-#' \item{Total 15-24 employment to population} {percentage}
-#' \item{Total 15-64 labour to population} {percentage}
-#' \item{Total 25-54 labour to population} {percentage}
-#' \item{Total above 15 employment to population} {percentage}
-#' \item{Total 15+ labour to population} {percentage}
-#' \item{Total 65+ labour to population} {percentage}
-#' \item{Total agriculture workers} {percentage}
-#' \item{Total contributing family workers} {percentage}
-#' \item{Total industry workers} {percentage}
-#' \item{Total long-term unemployment} {percentage}
-#' \item{Total salaried employees} {percentage}
-#' \item{Total self-employed} {percentage}
-#' \item{Total service workers} {percentage}
+#' \item{Female 15-24 employment to population}{percentage}
+#' \item{Female 15-64 labour to population}{percentage}
+#' \item{Female 25-54 labour to population}{percentage}
+#' \item{Female 65+ labour to population}{percentage}
+#' \item{Female agriculture workers}{percentage}
+#' \item{Female contributing family workers}{percentage}
+#' \item{Female industry workers}{percentage}
+#' \item{Female salaried employees}{percentage}
+#' \item{Female self-employed}{percentage}
+#' \item{Female service workers}{percentage}
+#' \item{Male 15-24 employment to population}{percentage}
+#' \item{Male 15-64 labour to population}{percentage}
+#' \item{Male 25-54 labour to population}{percentage}
+#' \item{Male above 15 employment to population}{percentage}
+#' \item{Male 15+ labour to population}{percentage}
+#' \item{Male 65+ labour to population}{percentage}
+#' \item{Male agriculture workers}{percentage}
+#' \item{Male contributing family workers}{percentage}
+#' \item{Male industry workers}{percentage}
+#' \item{Male salaried employees}{percentage}
+#' \item{Male self-employed}{percentage}
+#' \item{Male service workers}{percentage}
+#' \item{Total 15-24 employment to population}{percentage}
+#' \item{Total 15-64 labour to population}{percentage}
+#' \item{Total 25-54 labour to population}{percentage}
+#' \item{Total above 15 employment to population}{percentage}
+#' \item{Total 15+ labour to population}{percentage}
+#' \item{Total 65+ labour to population}{percentage}
+#' \item{Total agriculture workers}{percentage}
+#' \item{Total contributing family workers}{percentage}
+#' \item{Total industry workers}{percentage}
+#' \item{Total long-term unemployment}{percentage}
+#' \item{Total salaried employees}{percentage}
+#' \item{Total self-employed}{percentage}
+#' \item{Total service workers}{percentage}
 #' }
 #'
 #' @examples
-#'    works
+#'    work
 #'
 #'
 "work"
