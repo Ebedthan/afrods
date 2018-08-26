@@ -4,14 +4,18 @@
 \name{population}
 \alias{population}
 \title{Population}
-\format{An object of class \code{data.frame} with 8137 rows and 37 columns.}
+\format{An object of class \code{data.frame} with 5881 rows and 36 columns.}
+\source{
+https://gapminder.org/data
+}
 \usage{
 population
 }
 \description{
-Population
-}
-\details{
 Population data of African countires from Gapminder.
+}
+\examples{
+   population
+
 }
 \keyword{datasets}

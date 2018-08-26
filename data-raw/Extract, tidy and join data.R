@@ -11,7 +11,7 @@ library(dslabs)
 # setting working directory to avoid inexistent path error in read_excel function
 
 # update the path for new folder
-setwd("~/Downloads/data.pkg/Agriculture and Environment/")
+setwd("~/Downloads/data.pkg/Population/")
 file_list <- list.files(pattern='*.xlsx')
 work_df_list <- lapply(file_list, read_excel)
 setwd("~/Projects/afrods/")
@@ -75,22 +75,22 @@ dataframe = Reduce(function(...) merge(..., all=T), wdf_list)
 dataframe = merge(dataframe, african_countries[, c("country", "region")], by="country")
 
 # !!! here at each iteration i need to change names from work to the one available now
-agriculture_environment <- dataframe %>%
+population <- dataframe %>%
   select(country, region, year, everything())
 
 # changing class of columns
-id <- c(4:ncol(agriculture_environment))
-agriculture_environment[,id] <- apply(agriculture_environment[,id], 2, function(x) as.numeric(x))
+id <- c(4:ncol(population))
+population[,id] <- apply(population[,id], 2, function(x) as.numeric(x))
 
 # save for now
-write_csv(work, "inst/extdata/agriculture_environment.csv")
+write_csv(population, "inst/extdata/population.csv")
 
 # save the rda file
-devtools::use_data(agriculture_environment, overwrite = TRUE)
+devtools::use_data(population, overwrite = TRUE)
 
 # determine the best compression format
-compress <- tools::checkRdaFiles("data/agriculture_environment.rda")$compress
+compress <- tools::checkRdaFiles("data/population.rda")$compress
 
 # Re save using this format
-devtools::use_data(agriculture_environment, overwrite = TRUE, compress = compress)
+devtools::use_data(population, overwrite = TRUE, compress = compress)
 

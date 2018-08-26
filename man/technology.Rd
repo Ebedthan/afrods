@@ -5,13 +5,17 @@
 \alias{technology}
 \title{Technology}
 \format{An object of class \code{data.frame} with 2397 rows and 10 columns.}
+\source{
+https://gapminder.org/data
+}
 \usage{
 technology
 }
 \description{
-Technology
-}
-\details{
 Technology data of African countries from Gapminder.
+}
+\examples{
+   technology
+
 }
 \keyword{datasets}

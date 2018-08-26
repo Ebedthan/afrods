@@ -5,10 +5,17 @@
 \alias{education}
 \title{Education}
 \format{An object of class \code{data.frame} with 2642 rows and 26 columns.}
+\source{
+https://gapminder.org/data
+}
 \usage{
 education
 }
 \description{
 Education data of African countries from Gapminder
+}
+\examples{
+  education
+
 }
 \keyword{datasets}

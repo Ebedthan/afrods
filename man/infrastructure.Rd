@@ -4,14 +4,26 @@
 \name{infrastructure}
 \alias{infrastructure}
 \title{Infrastructure}
-\format{An object of class \code{data.frame} with 2621 rows and 9 columns.}
+\format{Data frame with columns
+\describe{
+\item{Fixed broadband Internet subscribers (per 100 people)}{}
+\item{Fixed broadband Internet subscribers}{}
+\item{Proportion of the population using improved sanitation facilities, urban}{}
+\item{Fixed line and mobile phone subscribers (per 100 peoples)}{}
+\item{Proportion of the population using improved sanitation facilities, rural}{}
+\item{Proportion of the population using improved sanitation facilities, total}{}
+}}
+\source{
+https://gapminder.org/data
+}
 \usage{
 infrastructure
 }
 \description{
-Infrastructure
-}
-\details{
 Infrastructure data of African countries from Gapminder.
+}
+\examples{
+   infrastructure
+
 }
 \keyword{datasets}

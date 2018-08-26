@@ -5,13 +5,18 @@
 \alias{health}
 \title{Health}
 \format{An object of class \code{data.frame} with 15208 rows and 84 columns.}
+\source{
+https://gapminder.org/data
+}
 \usage{
 health
 }
 \description{
-Health
-}
-\details{
 Health data of African countries from Gapminder
+}
+\examples{
+   health
+
+
 }
 \keyword{datasets}

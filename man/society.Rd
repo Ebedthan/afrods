@@ -5,13 +5,16 @@
 \alias{society}
 \title{Society}
 \format{An object of class \code{data.frame} with 10654 rows and 45 columns.}
+\source{
+https://gapminder.org/data
+}
 \usage{
 society
 }
 \description{
-Society
-}
-\details{
 Society data of African countries from Gapminder.
+}
+\examples{
+   society
 }
 \keyword{datasets}

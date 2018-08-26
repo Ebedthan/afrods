@@ -5,10 +5,17 @@
 \alias{energy}
 \title{Energy}
 \format{An object of class \code{data.frame} with 12946 rows and 34 columns.}
+\source{
+https://gapminder.org/data
+}
 \usage{
 energy
 }
 \description{
 Energy data of African countries from Gapminder
+}
+\examples{
+  energy
+
 }
 \keyword{datasets}
