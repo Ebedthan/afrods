@@ -12,7 +12,7 @@ https://gapminder.org/data
 population
 }
 \description{
-Population data of African countires from Gapminder.
+Population data of African countries from Gapminder.
 }
 \examples{
    population
