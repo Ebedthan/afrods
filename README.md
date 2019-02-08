@@ -23,7 +23,7 @@ This is an example which shows you how you can use this dataset:
 library("afrods")
 ```
 
-*Note: This package is an excerpt of data found in spreadsheets ongapminder.org. The data contained in this package cannot by the way be a definitve and up to date source of data. The principal purpose of this package is to provide data of African countries for teaching and making code examples.*
+**Note: This package is an excerpt of data found in spreadsheets ongapminder.org. The data contained in this package cannot by the way be a definitve and up to date source of data. The principal purpose of this package is to provide data of African countries for teaching and making code examples.**
 
 # License
 
