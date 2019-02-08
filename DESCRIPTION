@@ -14,5 +14,5 @@ LazyData: true
 URL: https://github.com/Ebedthan/afrods,
     http://www.gapminder.org/data/
 BugReports: https://github.com/Ebedthan/afrods/issues
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
 Suggests: testthat

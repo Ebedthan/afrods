@@ -6,12 +6,12 @@ suppressPackageStartupMessages(library(tidyverse))
 library(readxl)
 library(readr)
 library(dslabs)
-
+library(glue)
 # Uploading files
 # setting working directory to avoid inexistent path error in read_excel function
 
 # update the path for new folder
-setwd("~/Downloads/data.pkg/Population/")
+setwd("~/Projects/afrods/data-raw/xls/Population/")
 file_list <- list.files(pattern='*.xlsx')
 work_df_list <- lapply(file_list, read_excel)
 setwd("~/Projects/afrods/")
@@ -19,7 +19,18 @@ setwd("~/Projects/afrods/")
 # which is typically the description of the file. Theses descriptions will be
 # useful in the future for naming columns.
 #
-# create empty list for storing df informations
+# retrieve the file name to fill first column name of each file
+
+nam_col <- tools::file_path_sans_ext(glue("{file_list}"))
+
+i <- 0
+work_df_list <- lapply(work_df_list, function(df) {
+  i <<- i + 1
+  names(df)[1] <- nam_col[i]
+  df
+})
+
+# This list store first column name informations
 desc_vec <- c()
 
 for (df in work_df_list) {
