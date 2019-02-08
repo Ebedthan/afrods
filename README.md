@@ -1,6 +1,6 @@
 # afrods  [![Travis-CI Build Status](https://travis-ci.org/Ebedthan/afrods.svg?branch=master)](https://travis-ci.org/Ebedthan/afrods)
 
-The goal of afrods is to provide data to everyone of some African countries in key fields. This data set can be used for demo, courses and every common data use.
+The goal of afrods is to provide ready, easy to use and tidy data to everyone on some African countries in key fields. This data set can be used for demo, courses and every common data use.
 
 ## Installation
 
