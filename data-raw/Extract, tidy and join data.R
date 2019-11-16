@@ -2,7 +2,7 @@
 # Aug 2018: Begin to download xlsx files from gapminder and to tidy, extract data.
 #
 # Loading packages
-suppressPackageStartupMessages(library(tidyverse))
+suppressPackageStartupMessages(library(dplyr))
 library(readxl)
 library(readr)
 library(dslabs)
@@ -17,7 +17,7 @@ work_df_list <- lapply(file_list, read_excel)
 setwd("~/Projects/afrods/")
 # This chunk is for extracting the name of the first column of the data frame
 # which is typically the description of the file. Theses descriptions will be
-# useful in the future for naming columns.
+# used in the future for naming columns.
 #
 # retrieve the file name to fill first column name of each file
 
@@ -97,11 +97,11 @@ population[,id] <- apply(population[,id], 2, function(x) as.numeric(x))
 write_csv(population, "inst/extdata/population.csv")
 
 # save the rda file
-devtools::use_data(population, overwrite = TRUE)
+usethis::use_data(population, overwrite = TRUE)
 
 # determine the best compression format
 compress <- tools::checkRdaFiles("data/population.rda")$compress
 
 # Re save using this format
-devtools::use_data(population, overwrite = TRUE, compress = compress)
+usethis::use_data(population, overwrite = TRUE, compress = compress)
 
